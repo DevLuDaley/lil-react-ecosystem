@@ -40,3 +40,27 @@ What do we need?
 # Create public && src folders
 
 create index.html file inside public dir
+
+# update index.html file
+
+```html
+<!-- ! index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <title>React Ecosystem</title>
+</head>
+<body>
+    <div id="root"></div>
+    <noscript>
+        Please enable Javascript to view this site.
+    </noscript>
+    <script src="../dist/bundles.js"></script>
+</body>
+</html>
+```
+
+# install babel for ES6 feature
+    npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react

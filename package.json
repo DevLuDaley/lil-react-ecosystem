@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/DevLuDaley/lil-react-ecosystem/issues"
   },
-  "homepage": "https://github.com/DevLuDaley/lil-react-ecosystem#readme"
+  "homepage": "https://github.com/DevLuDaley/lil-react-ecosystem#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7"
+  }
 }
