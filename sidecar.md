@@ -20,6 +20,23 @@ What do we need?
 4 - Root Component
 5 - react-hot-loader
 
-# create directory
+# create directory/folder
+    cd dir_name
 
 # setup git
+  git init
+  git add .
+  git commit -m 'first commit'
+
+  in Github Desktop app
+    add new repository
+    publish repository
+
+  git status
+
+# setup new npm package
+    npm init -y
+
+# Create public && src folders
+
+create index.html file inside public dir
