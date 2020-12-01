@@ -265,3 +265,43 @@ export default hot(module)(App);
 
 ```
     
+
+
+# adding redux to react app
+     $ npm install redux react-redux
+
+
+# setup store
+create store.js file
+
+```js
+// store.js
+import { createStore, combineReducers } from 'redux';
+
+const reducers = {};
+
+const rootReducer = combineReducers(reducers);
+
+export const configureStore = () => createStore(rootReducer);
+
+```
+
+
+```js
+// index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { configureStore } from './store';
+import App from './App.js';
+
+ReactDOM.render(
+    <Provider store={configureStore()} >
+        <App />
+    </Provider>,
+    document.getElementById('root'),
+);
+
+```
+
+# Create Actions & Reducers
